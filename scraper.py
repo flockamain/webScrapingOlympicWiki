@@ -47,7 +47,7 @@ print(df)
 csv_buffer = StringIO()
 df.to_csv(csv_buffer, index=False)
 
-bucket_name = 's3bucketforwebscraperhehe'
+bucket_name = 's3bucketforwebscraperhaha'
 file_name = 'olympic_medalists.csv'
 
 s3_client.put_object(
